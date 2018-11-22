@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 450px;
+  height: 335px;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  font-style: oblique;
+   color: black;
+}
+
+.wrapper{
+  width:450px;
+  margin:auto;
+}
+.clearfix::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.header{
+  height:45px;
+  padding-top:10px;
+  background-color:white;
+}
+.layout_header{
+  background-color:rgb(216, 9, 9);
+  height:25px;
+  width: 200px;
+  padding:5px;
+  margin-left:50px;
+}
+.menu{
+  background-color: white;
+  height: 30px;
+  padding-left:55px;
+  padding-top: 5px;
+}
+.layout_menu{
+  min-height:35px;
+}
+.promo{
+  min-height:70px;
+  background-color:white;
+  padding-top:10px;
+  text-align: center;
+  
+}
+.promo1 {
+  float: left;
+  width: 120px;
+  height: 30px;
+   margin-left: 50px;
+  padding-top: 15px;
+  padding-left: 5px;
+  background-color:rgb(216, 9, 9);
+}
+.promo2 {
+  float: right;
+  width: 120px;
+  height: 30px;
+  margin-right: 50px;
+  padding-top: 15px;
+  padding-left: 5px;
+  background-color:rgb(216, 9, 9);
+}
+.content{
+  height: 105px;
+  padding-top:10px;
+}
+img {
+    height: 95px;
+    width: 95px;
+    background-color: white;
+    border: 3px solid black;
+}
+.left{
+ background-color:white;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  padding-left:5px;
+  padding-top: 5px;
+  
+}
+.main {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color:white; 
+  margin-left: 10px;
+  padding-left:5px;
+  padding-top: 5px;
+  
+}
+.right {
+  background-color:white; 
+  float: right;
+  width: 100px;
+  height: 100px;
+  padding-left:5px;
+  padding-top: 5px;
+  margin-right: 65px;
+  
+}
+.footer{
+  height: 30px;
+  padding-left:55px;
+  padding-top: 5px;
+  margin-top: 10px;
+  background-color:white;
+ 
+}
+
+/*
+  Используемые цвета:
+  #34495e – мокрый асфальт
+  #c0392b – красный
+  #3498db – синий
+*/
+
